@@ -7,21 +7,14 @@ using Microsoft.AspNetCore.Components.Routing;
 
 namespace FootballersCatalog.Api.Services
 {
-    public class FootballersService : IFootballersService
+    public class FootballersService(
+        IFootballersRepository footballersRepository,
+        ITeamsRepository teamsRepository,
+        IMapper mapper) : IFootballersService
     {
-        private readonly IFootballersRepository _footballersRepository;
-        private readonly ITeamsRepository _teamsRepository;
-        private readonly IMapper _mapper;
-
-        public FootballersService(
-            IFootballersRepository footballersRepository,
-            ITeamsRepository teamsRepository,
-            IMapper mapper)
-        {
-            _footballersRepository = footballersRepository;
-            _teamsRepository = teamsRepository;
-            _mapper = mapper;
-        }
+        private readonly IFootballersRepository _footballersRepository = footballersRepository;
+        private readonly ITeamsRepository _teamsRepository = teamsRepository;
+        private readonly IMapper _mapper = mapper;
 
         public async Task<List<FootballersResponse>> All()
         {
