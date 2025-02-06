@@ -1,0 +1,58 @@
+.add-footballer-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-footballer-page h1 {
+    text-align: center;
+}
+
+.content-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-container label {
+    font-weight: bold;
+}
+
+.content-container input,
+.content-container select,
+.content-container button {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.content-container button {
+    color: white;
+}
+
+.add-button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: darkgreen;
+}
+
+.team-select {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.delete-team-button {
+    background-color: red;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.delete-team-button:hover {
+    background-color: darkred;
+}

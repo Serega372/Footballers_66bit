@@ -1,0 +1,393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FootballersCatalog.Api\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FootballersCatalog.Api\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\dtos\\footballerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\dtos\\footballerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\services\\footballersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\services\\footballersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\abstract\\iteamsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\abstract\\iteamsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\controllers\\footballerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\controllers\\footballerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\services\\teamsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\services\\teamsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\services\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\services\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\repositories\\teamsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\repositories\\teamsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\dtos\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\dtos\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\abstract\\iteamsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\abstract\\iteamsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\helpers\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\helpers\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.api\\abstract\\ifootballersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F4CB0-A943-4D0E-8ECD-F0AB602C9AAC}|FootballersCatalog.Api\\FootballersCatalog.Api.csproj|solutionrelative:footballerscatalog.api\\abstract\\ifootballersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\entities\\teamentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\entities\\teamentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\entities\\footballerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\entities\\footballerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\abstract\\ifootballersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\abstract\\ifootballersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\repositories\\footballersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\repositories\\footballersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|d:\\repos\\footballers_catalog_66bit\\backend\\footballerscatalog.persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31729A0C-00D4-4951-803D-C49AAB435DD7}|FootballersCatalog.Persistence\\FootballersCatalog.Persistence.csproj|solutionrelative:footballerscatalog.persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 230,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 266,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 74,
+          "SelectedChildIndex": 25,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\appsettings.Development.json",
+              "RelativeToolTip": "FootballersCatalog.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T05:38:51.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Helpers\\Helpers.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Helpers\\Helpers.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Helpers\\Helpers.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Helpers\\Helpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T13:36:18.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITeamsService.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Abstract\\ITeamsService.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Abstract\\ITeamsService.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Abstract\\ITeamsService.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Abstract\\ITeamsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T14:33:40.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFootballersRepository.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Abstract\\IFootballersRepository.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\Abstract\\IFootballersRepository.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Abstract\\IFootballersRepository.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\Abstract\\IFootballersRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T09:59:47.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Controllers\\TeamsController.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:27:21.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeamsService.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Services\\TeamsService.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Services\\TeamsService.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Services\\TeamsService.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Services\\TeamsService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:15:13.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IFootballersService.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Abstract\\IFootballersService.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Abstract\\IFootballersService.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Abstract\\IFootballersService.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Abstract\\IFootballersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:03:56.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FootballersController.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Controllers\\FootballersController.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Controllers\\FootballersController.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Controllers\\FootballersController.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Controllers\\FootballersController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:24:18.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppMappingProfile.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Services\\AppMappingProfile.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Services\\AppMappingProfile.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Services\\AppMappingProfile.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Services\\AppMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:47:54.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FootballerDto.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dtos\\FootballerDto.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Dtos\\FootballerDto.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dtos\\FootballerDto.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Dtos\\FootballerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:48:46.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TeamDto.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dtos\\TeamDto.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Dtos\\TeamDto.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dtos\\TeamDto.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Dtos\\TeamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:48:35.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FootballersService.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Services\\FootballersService.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Services\\FootballersService.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Services\\FootballersService.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Services\\FootballersService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA9wDgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:46:35.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITeamsRepository.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Abstract\\ITeamsRepository.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\Abstract\\ITeamsRepository.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Abstract\\ITeamsRepository.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\Abstract\\ITeamsRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:41:01.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeamsRepository.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Repositories\\TeamsRepository.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\Repositories\\TeamsRepository.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Repositories\\TeamsRepository.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\Repositories\\TeamsRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:00:11.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FootballersRepository.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Repositories\\FootballersRepository.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\Repositories\\FootballersRepository.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Repositories\\FootballersRepository.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\Repositories\\FootballersRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:19:49.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TeamEntity.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Entities\\TeamEntity.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\Entities\\TeamEntity.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Entities\\TeamEntity.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\Entities\\TeamEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:59:22.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FootballerEntity.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Entities\\FootballerEntity.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\Entities\\FootballerEntity.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\Entities\\FootballerEntity.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\Entities\\FootballerEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:51:40.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Persistence\\DatabaseContext.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Persistence\\DatabaseContext.cs",
+              "RelativeToolTip": "FootballersCatalog.Persistence\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:51:00.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Program.cs",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Program.cs",
+              "RelativeToolTip": "FootballersCatalog.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T08:46:53.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\docker-compose.yml",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\docker-compose.yml",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\docker-compose.yml",
+              "RelativeToolTip": "FootballersCatalog.Api\\docker-compose.yml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-02-01T10:07:40.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "FootballersCatalog.Api\\Dockerfile",
+              "ToolTip": "D:\\repos\\Footballers_Catalog_66bit\\Backend\\FootballersCatalog.Api\\Dockerfile",
+              "RelativeToolTip": "FootballersCatalog.Api\\Dockerfile",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-01T08:47:02.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
