@@ -25,42 +25,21 @@ builder.Services.AddScoped<ITeamsService, TeamsService>();
 builder.Services.AddScoped<ITeamsRepository, TeamsRepository>();
 builder.Services.AddAutoMapper(typeof(AppMappingProfile));
 
-// builder.Services.AddCors(options =>
-// {
-//     options.AddPolicy("AllowLocalhost5173",
-//         policy => policy.WithOrigins("http://localhost:5173")
-//                         .AllowAnyMethod()
-//                         .AllowAnyHeader());
-// });
-
 builder.Services.AddCors(options =>
 {
-    if (builder.Environment.IsDevelopment())
-    {
-        options.AddDefaultPolicy(
-            corsPolicyBuilder =>
-            {
-                corsPolicyBuilder.SetIsOriginAllowed(origin => new Uri(origin).IsLoopback)
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .AllowCredentials();
-            });
-    }
-    else
-    {
-        options.AddDefaultPolicy(
-            corsPolicyBuilder =>
-            {
-                corsPolicyBuilder.WithOrigins(builder.Configuration.GetSection("Domain").Get<string[]>() ?? [])
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .AllowCredentials();
-            });
-    }
+    options.AddPolicy(
+        "AllowAll",
+        builder =>
+        {
+            builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
 });
 
 var app = builder.Build();
-app.UseCors();
+app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
