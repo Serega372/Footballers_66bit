@@ -8,12 +8,10 @@ namespace FootballersCatalog.Api.Controllers
     [Route("[controller]")]
     public class FootballersController(IFootballersService footballersService) : ControllerBase
     {
-        private readonly IFootballersService _footballersService = footballersService;
-
         [HttpGet]
         public async Task<ActionResult<List<FootballersResponse>>> All()
         {
-            var footballers = await _footballersService.All();
+            var footballers = await footballersService.All();
 
             return Ok(footballers);
         }
@@ -21,7 +19,7 @@ namespace FootballersCatalog.Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById([FromRoute] Guid id)
         {
-            var footballer = await _footballersService.GetById(id);
+            var footballer = await footballersService.GetById(id);
 
             return Ok(footballer);
         }
@@ -30,7 +28,7 @@ namespace FootballersCatalog.Api.Controllers
         public async Task<ActionResult<List<FootballersResponse>>> GetByPage([FromRoute]
             int page, [FromRoute] int pageSize)
         {
-            var footballers = await _footballersService.GetByPage(page, pageSize);
+            var footballers = await footballersService.GetByPage(page, pageSize);
 
             return Ok(footballers);
         }
@@ -38,23 +36,25 @@ namespace FootballersCatalog.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> Add([FromBody] AddFootballerRequest request)
         {
-            await _footballersService.Add(request);
+            await footballersService.Add(request);
 
             return Ok();
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update([FromRoute] Guid id, [FromBody] UpdateFootballerRequest request)
+        public async Task<ActionResult> Update(
+            [FromRoute] Guid id,
+            [FromBody] UpdateFootballerRequest request
+            )
         {
-            await _footballersService.Update(id, request);
-
+            await footballersService.Update(id, request);
             return Ok();
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete([FromRoute] Guid id)
         {
-            await _footballersService.Delete(id);
+            await footballersService.Delete(id);
 
             return Ok();
         }

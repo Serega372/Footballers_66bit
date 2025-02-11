@@ -1,35 +1,28 @@
 ﻿using FootballersCatalog.Persistence.Abstract;
 using FootballersCatalog.Persistence.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FootballersCatalog.Persistence.Repositories
 {
     public class FootballersRepository(DatabaseContext databaseContext) : IFootballersRepository
     {
-        private readonly DatabaseContext _dbContext = databaseContext;
-
         public async Task<List<FootballerEntity>> All()
         {
-            return await _dbContext.Footballers
+            return await databaseContext.Footballers
                 .AsNoTracking()
                 .ToListAsync();
         }
 
         public async Task<FootballerEntity?> GetById(Guid id)
         {
-            return await _dbContext.Footballers
+            return await databaseContext.Footballers
                 .AsNoTracking()
                 .FirstOrDefaultAsync(f => f.Id == id);
         }
 
         public async Task<List<FootballerEntity>> GetByPage(int page, int pageSize)
         {
-            return await _dbContext.Footballers
+            return await databaseContext.Footballers
                 .AsNoTracking()
                 .Skip(page * (pageSize - 1))
                 .Take(pageSize)
@@ -40,24 +33,24 @@ namespace FootballersCatalog.Persistence.Repositories
         {
             footballer.Id = Guid.NewGuid();
 
-            await _dbContext.AddAsync(footballer);
-            await _dbContext.SaveChangesAsync();
+            await databaseContext.AddAsync(footballer);
+            await databaseContext.SaveChangesAsync();
         }
 
         public async Task Update(FootballerEntity updatedFootballer)
         {
-            _dbContext.Footballers.Update(updatedFootballer);
+            databaseContext.Footballers.Update(updatedFootballer);
 
-            await _dbContext.SaveChangesAsync();
+            await databaseContext.SaveChangesAsync();
         }
 
         public async Task Delete(Guid id)
         {
-            await _dbContext.Footballers
+            await databaseContext.Footballers
                 .Where(f => f.Id == id)
                 .ExecuteDeleteAsync();
 
-            await _dbContext.SaveChangesAsync();
+            await databaseContext.SaveChangesAsync();
         }
     }
 }

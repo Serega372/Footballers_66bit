@@ -1,6 +1,5 @@
 ﻿using FootballersCatalog.Api.Abstract;
 using FootballersCatalog.Api.Dtos;
-using FootballersCatalog.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FootballersCatalog.Api.Controllers
@@ -9,12 +8,10 @@ namespace FootballersCatalog.Api.Controllers
     [Route("[controller]")]
     public class TeamsController(ITeamsService teamsService) : ControllerBase
     {
-        private readonly ITeamsService _teamsService = teamsService;
-
         [HttpGet]
         public async Task<ActionResult<List<TeamsResponse>>> All()
         {
-            var teams = await _teamsService.All();
+            var teams = await teamsService.All();
 
             return Ok(teams);
         }
@@ -22,7 +19,7 @@ namespace FootballersCatalog.Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<TeamsResponse>> GetById([FromRoute] Guid id)
         {
-            var team = await _teamsService.GetById(id);
+            var team = await teamsService.GetById(id);
 
             return Ok(team);
         }
@@ -30,7 +27,7 @@ namespace FootballersCatalog.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<TeamsResponse>> Add([FromBody] AddTeamRequest request)
         {   
-            var team = await _teamsService.Add(request);
+            var team = await teamsService.Add(request);
            
             return Ok(team);
         }
@@ -38,7 +35,7 @@ namespace FootballersCatalog.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete([FromRoute] Guid id)
         {
-            await _teamsService.Delete(id);
+            await teamsService.Delete(id);
 
             return Ok();
         }
