@@ -6,7 +6,9 @@ const EditFootballerModal = ({ isOpen, onClose, footballer, onSave }) => {
     const [name, setName] = useState(footballer.name);
     const [surname, setSurname] = useState(footballer.surname);
     const [gender, setGender] = useState(footballer.gender);
-    const [birthday, setBirthday] = useState(footballer.birthday);
+    const [birthday, setBirthday] = useState(
+        footballer.birthday ? footballer.birthday.split('T')[0] : ''
+    );
     const [teamId, setTeamId] = useState(footballer.teamId);
     const [country, setCountry] = useState(footballer.country);
     const [teams, setTeams] = useState([]);
@@ -48,15 +50,17 @@ const EditFootballerModal = ({ isOpen, onClose, footballer, onSave }) => {
                     <input type="text" value={surname} onChange={(e) => setSurname(e.target.value)} required />
                     <label>Gender:</label>
                     <select value={gender} onChange={(e) => setGender(e.target.value)} required>
+                        <option value="">Choose gender</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                     </select>
                     <label>Birthday:</label>
-                    <input className={styles['input-fil']} type="date" value={birthday} onChange={(e) => setBirthday(e.target.value)} required
+                    <input type="date" value={birthday} onChange={(e) => setBirthday(e.target.value)} required
                            min="1960-01-01"
                            max="2021-12-31"/>
                     <label>Team:</label>
-                    <select className={styles['select-fil']} value={teamId} onChange={(e) => setTeamId(e.target.value)} required>
+                    <select value={teamId} onChange={(e) => setTeamId(e.target.value)} required>
+                        <option value="">Choose team</option>
                         {teams.map((team) => (
                             <option key={team.id} value={team.id}>
                                 {team.teamTitle}
@@ -65,6 +69,7 @@ const EditFootballerModal = ({ isOpen, onClose, footballer, onSave }) => {
                     </select>
                     <label>Country:</label>
                     <select value={country} onChange={(e) => setCountry(e.target.value)} required>
+                        <option value="">Choose Country</option>
                         <option value="Russia">Russia</option>
                         <option value="USA">USA</option>
                         <option value="Italy">Italy</option>
