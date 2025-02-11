@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -23,8 +24,8 @@ namespace FootballersCatalog.Persistence.Entities
 
         public string? Country { get; set; }
 
-        public Guid TeamId { get; set; }
+        public Guid? TeamId { get; set; }
         [ForeignKey("TeamId")]
-        public TeamEntity Team { get; set; }
+        public TeamEntity? Team { get; set; }
     }
 }
