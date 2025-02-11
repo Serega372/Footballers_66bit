@@ -61,6 +61,7 @@ namespace FootballersCatalog.Api.Services
             {
                 var team = await _teamsRepository.GetById(updatedFootballer.TeamId);
                 findedFootballer.TeamTitle = team.TeamTitle;
+                findedFootballer.TeamId = updatedFootballer.TeamId;
             }
 
             await _footballersRepository.Update(findedFootballer);
