@@ -40,6 +40,12 @@ namespace FootballersCatalog.Persistence.Repositories
 
         public async Task Delete(Guid id)
         {
+            var team = await _dbContext.Teams
+                .Include(t => t.Footballers)
+                .FirstOrDefaultAsync(t => t.Id == id);
+
+            foreach (var footballer in team.Footballers) footballer.TeamTitle = "";
+                
             await _dbContext.Teams
                 .Where(t => t.Id == id)
                 .ExecuteDeleteAsync();
