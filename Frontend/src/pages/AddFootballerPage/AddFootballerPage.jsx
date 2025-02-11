@@ -63,7 +63,7 @@ const AddFootballerPage = () => {
                     <input placeholder="Enter Surname" type="text" value={surname} onChange={(e) => setSurname(e.target.value)} required />
                     <label>Gender:</label>
                     <select value={gender} onChange={(e) => setGender(e.target.value)} required>
-                        <option>Choose gender</option>
+                        <option value="">Choose gender</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                     </select>

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { getFootballers, deleteFootballer } from '../../api/api.js';
-import styles from './FootballersCatalogPage.module.css';
+import React, { useState, useEffect } from "react";
+import { getFootballers, deleteFootballer } from "../../api/api.js";
+import styles from "./FootballersCatalogPage.module.css";
 import EditFootballerModal from "../../components/EditFootballerModal/EditFootballerModal.jsx";
 
 const FootballersCatalogPage = () => {
@@ -56,7 +56,7 @@ const FootballersCatalogPage = () => {
                                 <td>{footballer.surname}</td>
                                 <td>{footballer.gender}</td>
                                 <td>{new Date(footballer.birthday).toLocaleDateString()}</td>
-                                <td>{footballer.teamTitle}</td>
+                                <td>{footballer.teamTitle || 'Not selected'}</td>
                                 <td>{footballer.country}</td>
                                 <td>
                                     <div className={styles['button-container']}>
